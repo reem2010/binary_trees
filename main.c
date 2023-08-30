@@ -24,7 +24,7 @@ int main(void)
 
     binary_tree_print(root);
     uncle = binary_tree_uncle(root->right->left);
-    printf("Uncle of %d: %d\n", root->right->left->n, uncle->n);
+    printf("Uncle of %d: %d\n", root->right->left->right->n, uncle->n);
     uncle = binary_tree_uncle(root->left->right);
     printf("Uncle of %d: %d\n", root->left->right->n, uncle->n);
     uncle = binary_tree_uncle(root->left);
