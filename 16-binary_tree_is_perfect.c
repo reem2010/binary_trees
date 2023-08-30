@@ -2,7 +2,7 @@
 #include "11-binary_tree_size.c"
 #include "9-binary_tree_height.c"
 /**
- * p_recursion - calculate the power
+ * p - calculate the power
  * @x: the number
  * @y: exponent
  * Return: the value of x raised to the power of y
